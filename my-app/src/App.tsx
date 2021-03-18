@@ -1,10 +1,17 @@
 import React, {FC} from  'react';
 
+import { TopNav } from './components/TopNav/TopNav';
+
 export const AppWrapper: FC = () =>{
   return(
-    <div>
-    
-    </div>
+    <> 
+      <TopNav/>
+        <div>
+         
+        </div>
+    </>
+       
   );
 };
+export default AppWrapper;
 
